@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Timeline
+   version = "3.0">
+   <TimelineItems>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/qualson/Desktop/xcode%20test/learnSwift.playground/Pages/CollectionType.xcplaygroundpage#CharacterRangeLen=3&amp;CharacterRangeLoc=414&amp;EndingColumnNumber=0&amp;EndingLineNumber=26&amp;StartingColumnNumber=1&amp;StartingLineNumber=25&amp;Timestamp=675530299.227536"
+         lockedSize = "{327, 128}"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/qualson/Desktop/xcode%20test/learnSwift.playground/Pages/CollectionType.xcplaygroundpage#CharacterRangeLen=1&amp;CharacterRangeLoc=412&amp;EndingColumnNumber=0&amp;EndingLineNumber=25&amp;StartingColumnNumber=15&amp;StartingLineNumber=24&amp;Timestamp=675530299.22825"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/qualson/Desktop/xcode%20test/learnSwift.playground/Pages/CollectionType.xcplaygroundpage#CharacterRangeLen=3&amp;CharacterRangeLoc=352&amp;EndingColumnNumber=8&amp;EndingLineNumber=22&amp;StartingColumnNumber=5&amp;StartingLineNumber=22&amp;Timestamp=675530299.228376"
+         lockedSize = "{299, 128}"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/qualson/Desktop/xcode%20test/learnSwift.playground/Pages/CollectionType.xcplaygroundpage#CharacterRangeLen=14&amp;CharacterRangeLoc=499&amp;EndingColumnNumber=0&amp;EndingLineNumber=33&amp;StartingColumnNumber=1&amp;StartingLineNumber=32&amp;Timestamp=675530299.228493"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+   </TimelineItems>
+</Timeline>
