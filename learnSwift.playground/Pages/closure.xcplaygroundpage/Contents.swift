@@ -100,3 +100,63 @@ doSomething3() {
 doSomething3 {
     $0+$1+$2
 }
+
+
+//@escaping
+func doSomeTing1(closure: @escaping () -> ()) {
+    let kyuchul: () -> () = closure
+}
+
+
+func doSomeTing2(closure: @escaping () -> ()) {
+    print("kyuhul2")
+
+    DispatchQueue.main.asyncAfter(deadline: .now() + 15) {
+        closure()
+    }
+
+    print("kyuchul222")
+}
+	
+doSomeTing2 {
+    print("hi")
+}
+    
+
+
+class Someclass {
+    var x = 10
+    var completionHandlers: [() -> Void] = []
+    
+    func calldoSomething() {
+        withEscaping { self.x = 100 }
+        withoutEscaping { x = 200 }
+    }
+
+    func withEscaping(completion: @escaping () -> Void) {
+        completionHandlers.append(completion)
+    }
+
+    func withoutEscaping(completion: () -> Void) {
+        completion()
+    }
+}
+
+let instance = Someclass()
+
+instance.calldoSomething()
+print(instance.x)     // 200
+
+instance.completionHandlers.first?()
+print(instance.x)    // 100
+
+
+func someFunc(completion: (() -> Void)?) {
+    DispatchQueue.main.asyncAfter(deadline: .now() + 3) {
+        completion?()
+    }
+}
+
+someFunc {
+    print("HI")
+}
