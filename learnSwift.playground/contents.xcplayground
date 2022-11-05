@@ -7,5 +7,16 @@
         <page name='struct_class'/>
         <page name='init'/>
         <page name='property'/>
+        <page name='assert_gurad'/>
+        <page name='closure'/>
+        <page name='enum'/>
+        <page name='extension'/>
+        <page name='inheritance'/>
+        <page name='map_filter_reduce'/>
+        <page name='optional2'/>
+        <page name='protocol'/>
+        <page name='try_catch'/>
+        <page name='Type Casting'/>
+        <page name='Singleton'/>
     </pages>
 </playground>
