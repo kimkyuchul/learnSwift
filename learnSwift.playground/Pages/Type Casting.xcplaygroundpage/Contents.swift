@@ -38,6 +38,7 @@ let library = [
 
 //라이브러리는 타입 추론에 의해 무비, 송 클래스의 부모 클래스인 미디어아이템 타입의 배열이다
 
+
 var movieCount = 0
 var songCount = 0
 
@@ -65,3 +66,24 @@ for item in library {
     }
     
 }
+
+class Study {
+    let name: String = "kyuchul"
+}
+class Note: Study {
+    let subject: String = "iOS"
+}
+class Pen: Study {
+    let alpha: Float = 0.5
+}
+
+let study = Note.init() as Study
+let study1 = Note() as Study
+let study2: Study = Note.init()
+study.name
+study2.name
+//study.subject
+
+var study3: Note = study as! Note
+study3.subject
+
